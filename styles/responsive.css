@@ -1,0 +1,118 @@
+/* ---------- Navbar ---------- */
+
+@media screen and (max-width: 991px) {
+  .nav-item {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-pages {
+    padding: 0;
+  }
+
+  .nav-item:first-of-type {
+    margin-top: 10px;
+  }
+
+  #band {
+    display: none;
+  }
+}
+
+/* ---------- Novidades ---------- */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .card > .card-img-top {
+    height: 40%;
+  }
+}
+
+@media screen and (min-width: 341px) and (max-width: 424px) {
+  .card > .card-img-top {
+    height: 40%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .card > .card-img-top {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .card > .card-img-top {
+    height: 35%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  .card > .card-img-top {
+    height: 35%;
+  }
+}
+
+/* ---------- Sobre Nós ---------- */
+
+@media screen and (max-width: 767px) {
+  #t1 {
+    order: 2;
+  }
+
+  #t2 {
+    order: 1;
+  }
+
+  .bcgd .card-body {
+    padding: 5px;
+  }
+
+  #slogan {
+    text-align: center;
+  }
+}
+
+/* ---------- Home ---------- */
+
+@media screen and (max-width: 767px) {
+  #slides {
+    display: none;
+  }
+
+  #textHome {
+    padding: 10px;
+    background-color: var(--cor-padrao);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    margin: 10px -5px;
+    color: white;
+  }
+
+  #map {
+    display: none;
+  }
+
+  #contato {
+    background-color: transparent;
+    box-shadow: none;
+    margin: 0px -12px 0;
+  }
+
+  #formContato {
+    box-shadow: var(--shadow);
+  }
+
+  #contato .col-lg-6:last-of-type {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #map {
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  #contato .col-lg-6:last-of-type {
+    border-top: 1px solid #ced4da;
+  }
+}

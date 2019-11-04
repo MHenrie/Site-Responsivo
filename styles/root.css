@@ -1,0 +1,32 @@
+:root {
+  --cor-padrao: #ff7f00;
+  --cor-second: #ff4500;
+  --cor-fundo: #f9f9f9;
+  --font-destaque: "DM Sans", sans-serif;
+  --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--cor-fundo);
+}
+
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
